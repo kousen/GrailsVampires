@@ -10,8 +10,6 @@ class Response {
 
     static embedded = ['movies', 'links']
 
-    static mapWith = "mongo"
-
     static constraints = {
     }
 }

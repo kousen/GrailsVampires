@@ -8,8 +8,6 @@ class MovieLinks implements Serializable {
     String reviews
     String similar
 
-    static mapWith = "mongo"
-
     static constraints = {
     }
 }

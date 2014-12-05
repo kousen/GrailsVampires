@@ -21,7 +21,7 @@ class Movie implements Serializable {
 
     String toString() { title }
 
-    static mapWith = "mongo"
+    // static mapWith = "mongo"
 
     static embedded = ['posters', 'links', 'ratings',
                        'release_dates', 'abridged_cast']
